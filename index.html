@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Runner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="game-container">
+        <h1>Adventure Runner</h1>
+
+        <div class="game-info">
+            <span>Score: <span id="score">0</span></span>
+            <span>Best: <span id="best">0</span></span>
+        </div>
+
+        <canvas id="gameCanvas" width="960" height="400">
+            Your browser does not support Canvas.
+        </canvas>
+
+        <p id="message">Press SPACE or click to jump!</p>
+
+        <button id="restartButton">Restart Game</button>
+        <p class="help">SPACE / ↑ = Jump · R = Restart</p>
+    </main>
+
+    <script src="game.js"></script>
+</body>
+</html>
